@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+
+<script type="text/javascript">
+	if (!window._laq) 
+	{	
+		window._laq = [];
+	}
+	
+	window._laq.push(function()
+	{
+		liveagent.showWhenOnline('5733E00000001MM', document.getElementById('liveagent_button_online_5733E00000001MM'));
+		liveagent.showWhenOffline('5733E00000001MM', document.getElementById('liveagent_button_offline_5733E00000001MM'));
+	});
+</script>
+</head>
+<body>
+<div id="liveagent_button_offline_5733E00000001MM" style="position: fixed;bottom: 0;right: 0;width: 300px;color:white;background-color:#00adee;padding-top:10px;padding-bottom:10px;padding-left:10px;margin-right:20px;margin-bottom:30px;z-index:10000;">
+<img src="SnoozeIcon.png" style="width:20px;height:20px;margin-right:20px;">
+Sorry, all our agents are offline</div>
+
+<div id="liveagent_button_online_5733E00000001MM" style="position: fixed;bottom: 0;right: 0;width: 150px;color:white;background-color:#00adee;padding-top:10px;padding-bottom:10px;padding-left:10px;margin-right:20px;margin-bottom:30px;display:none;z-index:10000;" >
+<img src="chatIcon.png" style="width:20px;height:20px;margin-right:20px;">
+<a href="javascript://Chat" onclick="liveagent.startChat('5733E00000001MM')" style="color:white;">Start a Chat</a>
+</div>
+
+</div>
+<script type='text/javascript' src='https://c.la1-c1cs-par.salesforceliveagent.com/content/g/js/48.0/deployment.js'></script>
+<script type='text/javascript'>
+liveagent.init('https://d.la1-c1cs-par.salesforceliveagent.com/chat', '5723E00000000yR', '00D3E0000000YeG');
+</script>
+</body>
+</html>
